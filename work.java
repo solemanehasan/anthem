@@ -41,6 +41,10 @@ public class work {
 			System.out.println("This terminal is ready for use by customers\n\n");
 			result = true;
 		}
+		else{
+			System.out.println("Self Test failure");
+			System.out.println("This terminal is not ready for use by customer\n\n");
+		}
 		
 		return result;
 		
